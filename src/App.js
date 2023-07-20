@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import ContactList from './components/pure/container/contactList';
+import Clock from './components/pure/Clock';
+// import ContactList from './components/pure/container/contactList';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ContactList></ContactList>
+        {/* <ContactList></ContactList> */}
+        <Clock></Clock>
       </header>
     </div>
   );
