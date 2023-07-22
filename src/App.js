@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Clock from './components/pure/Clock';
+import ExampleAxios from './components/pure/exampleAxios';
+// import Clock from './components/pure/Clock';
 // import ContactList from './components/pure/container/contactList';
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* <ContactList></ContactList> */}
-        <Clock></Clock>
+        {/* <Clock></Clock> */}
+        <ExampleAxios></ExampleAxios>
       </header>
     </div>
   );
