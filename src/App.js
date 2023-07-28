@@ -1,15 +1,13 @@
 import './App.css';
-// import ExampleAxios from './components/pure/exampleAxios';
-// import Clock from './components/pure/Clock';
-import ContactList from './components/pure/container/contactList';
+import ExampleFecth from './components/pure/exampleFecth';
+// import ContactList from './components/pure/container/contactList';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ContactList></ContactList>
-        {/* <Clock></Clock> */}
-        {/* <ExampleAxios></ExampleAxios> */}
+        {/* <ContactList></ContactList> */}
+        <ExampleFecth></ExampleFecth>
       </header>
     </div>
   );
